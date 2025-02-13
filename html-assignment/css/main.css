@@ -22,3 +22,22 @@ header, footer {
 .odd-list-back li:nth-child(odd) {
     background-color: rgb(190, 190, 190);
 }
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(100, 139, 96);
+    border: 2px solid white;
+}
+
+.nav-list li a:focus {
+    background-color: rgb(70, 98, 67);
+}
+
+.nav-list li a:hover {
+    background-color: rgb(70, 98, 67);
+}
