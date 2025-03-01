@@ -1,5 +1,12 @@
 body {
     margin-top: 0;
+    background-color: darkslategray;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkcyan;
 }
 
 header {
@@ -18,6 +25,43 @@ header {
     text-align: center;
     position: relative;
     bottom: 150px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav {
+    position: relative;
+    bottom: 80px;
+}
+
+
+nav ul {
+    margin: 0 0;
+    padding-left: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 262px;
+    text-transform: uppercase;
+}
+
+.middle-nav {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+
+nav a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: honeydew;
+    text-decoration: none;
 }
 
 
