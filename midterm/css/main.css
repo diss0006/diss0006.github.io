@@ -6,13 +6,13 @@ body {
 }
 
 .wrapper {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     background-color: rgb(30, 32, 36);
 }
 
 header {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -22,10 +22,11 @@ header {
 
 .main-heading {
     color: white;
+    font-size: 45px;
     background-color: rgba(0, 0, 0, 0.5);;
     text-align: center;
     position: relative;
-    bottom: 150px;
+    bottom: 220px;
 }
 
 /* .clearfix::after {
@@ -36,7 +37,7 @@ header {
 
 nav {
     position: relative;
-    bottom: 80px;
+    bottom: 110px;
 }
 
 
@@ -45,11 +46,12 @@ nav ul {
     padding-left: 0px;
     text-align: center;
     list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav li {
     display: inline-block;
-    width: 262px;
+    width: 329px;
     text-transform: uppercase;
 }
 
@@ -66,9 +68,10 @@ nav a {
 
 article {
     position: relative;
-    bottom: 70px;
-    width: 760px;
+    bottom: 100px;
+    width: 960px;
     margin: 0 auto;
+    line-height: 150%;
 }
 
 .main-article h2 {
