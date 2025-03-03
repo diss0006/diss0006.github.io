@@ -60,6 +60,13 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 article, section {
     position: relative;
     bottom: 100px;
