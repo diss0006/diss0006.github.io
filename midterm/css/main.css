@@ -29,12 +29,6 @@ header {
     bottom: 220px;
 }
 
-/* .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-} */
-
 nav {
     position: relative;
     bottom: 110px;
@@ -51,7 +45,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    width: 329px;
+    width: 328px;
     text-transform: uppercase;
 }
 
@@ -66,7 +60,7 @@ nav a {
     text-decoration: none;
 }
 
-article {
+article, section {
     position: relative;
     bottom: 100px;
     width: 960px;
@@ -80,9 +74,10 @@ article {
 
 .r6-article {
     width: 200px;
-    border: 12px solid rgb(44, 73, 126);;
+    border: 12px solid rgb(75, 23, 23);;
     margin: 0 15px 15px 0;
     float: left;
+    clear: left;
 }
 
 h3 {
@@ -94,4 +89,62 @@ ul{
     list-style-type: square;
 }
 
+form {
+    border: 2px solid white;
+    padding: 20px 20px;
+}
 
+.txtlbl {
+    display: block;
+}
+
+.txtbox {
+    width: 90%;
+}
+
+section h3 {
+    margin-bottom: 5px;
+}
+
+.quesn {
+    width: 90%;
+    height: 120px
+}
+
+form div {
+    margin-bottom: 12px;
+}
+
+.consent {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.radiolist input{
+    margin-left: 1px;
+    margin-right: 12px;
+}
+
+footer {
+    position: relative;
+    bottom: 60px;
+    text-align: right;
+    width: 960px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 8px 16px;
+}
