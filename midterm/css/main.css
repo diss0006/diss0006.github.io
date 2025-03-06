@@ -1,3 +1,4 @@
+/* applies the same font family and color throughout the whole webpage unless specifically changed. also sets the top margin of the body to zero, so that everything starts from the very top */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -5,6 +6,7 @@ body {
     background-color: rgb(128, 135, 150);
 }
 
+/* properties for the div in index.html which uses this class. Width is preset for prefered size */
 .wrapper {
     width: 1000px;
     margin: 0 auto;
@@ -16,10 +18,12 @@ header {
     margin: 0 auto;
 }
 
+/* this makes sure that the header image fully fits the width of header and wrapper */
 .r6-header {
     width: 100% ;
 }
 
+/* postition of the main heading is fixed to the wanted position relative to it's original position */
 .main-heading {
     color: white;
     font-size: 45px;
@@ -29,12 +33,13 @@ header {
     bottom: 220px;
 }
 
+/* postition of the nav bar is fixed to the wanted position relative to it's original position */
 nav {
     position: relative;
     bottom: 110px;
 }
 
-
+/* removes margins of the nav list and removes bullets and text is alligned to center */
 nav ul {
     margin: 0 0;
     padding-left: 0px;
@@ -43,12 +48,14 @@ nav ul {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 nav li {
     display: inline-block;
     width: 328px;
     text-transform: uppercase;
 }
 
+/* creates the little white bars in nav bar separating each item */
 .middle-nav {
     border-left: 3px solid white;
     border-right: 3px solid white;
@@ -60,6 +67,7 @@ nav a {
     text-decoration: none;
 }
 
+/* changes properties of nav a when hovered the cursor above it */
 nav a:hover {
     background-color: white;
     color: black;
@@ -67,6 +75,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+/* positions every article and section in index.html relative to their original position, also modifies line height of the content inside them */
 article, section {
     position: relative;
     bottom: 100px;
@@ -79,6 +88,7 @@ article, section {
     margin: 20px 0 15px 0;
 }
 
+/* makes the article text wrap around the image */
 .r6-article {
     width: 200px;
     border: 12px solid rgb(75, 23, 23);;
@@ -101,10 +111,12 @@ form {
     padding: 20px 20px;
 }
 
+/* makes the text box jump below the label */
 .txtlbl {
     display: block;
 }
 
+/* sets the size of the text box */
 .txtbox {
     width: 90%;
 }
@@ -127,11 +139,13 @@ form div {
     margin-bottom: 10px;
 }
 
+/* changes the distance between the lable to radio input using margins */
 .radiolist input{
     margin-left: 1px;
     margin-right: 12px;
 }
 
+/* alligns the text inside footer and postiions it relative to its previous position */
 footer {
     position: relative;
     bottom: 60px;
@@ -140,6 +154,7 @@ footer {
     margin: 0 auto;
 }
 
+/* changes the default properties of the button */
 button {
     background-color: transparent;
     color: white;
@@ -148,6 +163,7 @@ button {
     padding: 8px 16px;
 }
 
+/* changes the default properties of the button when hovered above it*/
 button:hover {
     background-color: white;
     color: black;
