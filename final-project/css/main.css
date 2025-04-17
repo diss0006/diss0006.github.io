@@ -88,27 +88,28 @@ header {
 
 .secnonebox h1 {
     color: white;
-    font-size:44px;
+    font-size:60px;
     margin: 0 0;
 }
 
 .secnonebox p {
     color: white;
-    font-size:12px;
+    font-size:14px;
     margin: 1rem 0 0 0;
 }
 
 .secnonebox button {
-    height: 4rem;
-    width: 10rem;
+    color: #222;
+    height: 5rem;
+    width: 12rem;
     background-color: #c78c06;
     border: 0;
-    margin-top: 7px;
+    margin-top: 12px;
+    font-size: 18px;
 }
 
 .secnonebox button:hover {
-    height: 4rem;
-    width: 10rem;
+    color: #222;
     background-color: #694b04;
     border: 0;
 }
