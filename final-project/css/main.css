@@ -16,6 +16,11 @@ h3 {
     margin: 1rem 10px;
 }
 
+h5 {
+    margin: 0 10px;
+}
+
+
 header {
     background-color: #222;
 }
@@ -43,6 +48,10 @@ header {
     padding: 1rem;
     list-style-type: none;
     background-color: #222;
+}
+
+.headercontentbox li a:hover {
+    background-color: #694b04;
 }
 
 .headercontentbox li:nth-child(1) {
@@ -197,4 +206,155 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid #c78c06;
     font-size: 18px;
+}
+
+.secnfive {
+    padding: 10px 10px;
+}
+
+.secnfive img {
+    width: 100%;
+}
+
+.secnfive h1 {
+    margin: 1.6rem 0 0.8rem 0;
+}
+
+.johndoe, .johnpic {
+    margin: 0 0;
+    background-color: #ffe6ac;
+}
+
+.secnfive h3 {
+    margin: 0 0;
+    padding: 10px 10px;
+    padding-bottom: 0;
+}
+
+.secnfive h5 {
+    border-bottom: 2px solid #c78c06;
+}
+
+.secnfive p {
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 1rem;
+}
+
+.bobrite, .bobpic {
+    margin: 0 0;
+    background-color: #ffe6ac;
+}
+
+.secnsix h1 {
+    margin-left: 10px;
+}
+
+.secnsix form {
+    margin: 0 10px;
+}
+
+.sndusmsg {
+    margin-top: 0;
+}
+
+.secnsix h1 {
+    margin-bottom: 1rem;
+}
+
+.secnsixbox label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.secnsixbox form div {
+    margin: 10px 0;
+}
+
+.secnsixbox form .txtbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.secnsixbox input {
+    flex-grow: 1;
+}
+
+.msgbox {
+    height: 6rem;
+}
+
+.secnsixbox button {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 18px;
+    border: 0;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.secnsixbox button:hover {
+    background-color: #694b04;
+}
+
+.secnsixbox table {
+    display: grid;
+    font-size: 12px;
+    border-collapse: collapse;
+    margin: 10px 10px;
+    margin-bottom: 2rem;
+    border: 1px solid #222;
+}
+
+.secnsixbox thead tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.secnsixbox tbody tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.secnsixbox th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #222;
+}
+
+.secnsixbox thead th {
+    text-align: center;
+    font-weight: normal;
+}
+
+thead th {
+    background-color: #ffe6ac; /* soft yellow like in the second screenshot */
+}
+
+.embedmap {
+    display: flex;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.embedmap iframe {
+    flex-grow: 1;
+    height: 400px;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 12px;
+}
+
+footer div {
+    padding: 10px 10px;
+}
+
+footer div p {
+    margin: 0;
+    padding: 10px 0;
 }
