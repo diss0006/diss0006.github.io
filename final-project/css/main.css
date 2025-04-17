@@ -53,9 +53,14 @@ header {
     color: #222;
 }
 
+.searchbarhead {
+    display: flex;
+    justify-content: center;
+}
+
 .searchbarhead input {
     height: 2rem;
-    width: 90% ;
+    flex-grow: 1;
 }
 
 .searchbarhead button {
