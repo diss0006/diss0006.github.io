@@ -64,7 +64,6 @@ header {
 }
 
 .searchbarhead button {
-    height: 2rem;
     background-color: transparent;
     border: 2px solid #c78c06;
 }
@@ -73,4 +72,43 @@ header {
     height: 2rem;
     background-color: #694b04;
     border: 2px solid #c78c06;
+}
+
+.secnone {
+    background-image: url(../images/main-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.secnonebox {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 1rem 10px 1rem;
+}
+
+.secnonebox h1 {
+    color: white;
+    font-size:44px;
+    margin: 0 0;
+}
+
+.secnonebox p {
+    color: white;
+    font-size:12px;
+    margin: 1rem 0 0 0;
+}
+
+.secnonebox button {
+    height: 4rem;
+    width: 10rem;
+    background-color: #c78c06;
+    border: 0;
+    margin-top: 7px;
+}
+
+.secnonebox button:hover {
+    height: 4rem;
+    width: 10rem;
+    background-color: #694b04;
+    border: 0;
 }
