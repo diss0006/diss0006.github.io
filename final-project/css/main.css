@@ -1,0 +1,63 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 0 0;
+}
+
+header {
+    background-color: #222;
+}
+
+.headercontentbox {
+    padding: 10px 10px;
+}
+
+.headercontentbox img{
+    margin: 1rem 0 0 0;
+    display: inline-block;
+}
+
+.logoback {
+    background-color: #c78c06;
+}
+
+.headercontentbox nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.headercontentbox li {
+    text-align: center;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: #222;
+}
+
+.headercontentbox li:nth-child(1) {
+    background-color: #c78c06;
+}
+
+
+.headercontentbox a{
+    text-decoration: none;
+}
+
+.headercontentbox a{
+    color: #c78c06;
+}
+
+.headercontentbox li:nth-child(1) a{
+    color: #222;
+}
+
+.searchbarhead input {
+    height: 2rem;
+    width: 90% ;
+}
+
+.searchbarhead button {
+    height: 2rem;
+}
