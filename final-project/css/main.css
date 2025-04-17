@@ -181,6 +181,10 @@ header {
     font-size: 18px;
 }
 
+.secnthreebox button:hover {
+    background-color: #694b04;
+}
+
 .back-img-secn {
     background-image: url(../images/vision.jpg);
     background-position: center;
@@ -206,6 +210,10 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid #c78c06;
     font-size: 18px;
+}
+
+.back-img-secn button:hover {
+    background-color: #694b04;
 }
 
 .secnfive {
