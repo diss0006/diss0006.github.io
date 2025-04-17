@@ -7,6 +7,15 @@ body {
     margin: 0 0;
 }
 
+h1 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 1rem 10px;
+}
+
 header {
     background-color: #222;
 }
@@ -66,10 +75,10 @@ header {
 .searchbarhead button {
     background-color: transparent;
     border: 2px solid #c78c06;
+    width: 2rem;
 }
 
 .searchbarhead button:hover {
-    height: 2rem;
     background-color: #694b04;
     border: 2px solid #c78c06;
 }
@@ -94,14 +103,14 @@ header {
 
 .secnonebox p {
     color: white;
-    font-size:14px;
+    font-size:12px;
     margin: 1rem 0 0 0;
 }
 
 .secnonebox button {
     color: #222;
-    height: 5rem;
-    width: 12rem;
+    height: 4.2rem;
+    padding: 0 1.6rem;
     background-color: #c78c06;
     border: 0;
     margin-top: 12px;
@@ -112,4 +121,80 @@ header {
     color: #222;
     background-color: #694b04;
     border: 0;
+}
+
+.secntwo {
+    background-color: #ffe6ac;
+    padding: 10px 10px;
+}
+
+.secntwobox img {
+    width: 100%;
+}
+
+.secntwobox h1 {
+    margin: 1rem 0;
+}
+
+.secntwobox p {
+    font-size: 12px;
+}
+
+.secnthree {
+    padding: 10px 10px;
+}
+
+.secnthreebox div {
+    margin: 10px 0;
+    background-color: #ffe6ac;
+}
+
+.secnthreebox img {
+    width: 100%;
+}
+
+.secnthreebox h1 {
+    margin: 1.6rem 0 0.8rem 0;
+}
+
+.secnthreebox p {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.secnthreebox button {
+    margin: 10px 10px;
+    color: white;
+    height: 4.2rem;
+    padding: 0 1.6rem;
+    background-color: #222;
+    border: 0;
+    font-size: 18px;
+}
+
+.back-img-secn {
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.back-img-secn p {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.back-img-secn h3 {
+    margin-top: 7px;
+    padding-top: 1rem;
+}
+
+.back-img-secn button {
+    margin: 10px 10px;
+    color: white;
+    height: 4.2rem;
+    padding: 0 1.6rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #c78c06;
+    font-size: 18px;
 }
