@@ -1,7 +1,5 @@
-
 body {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "wdth" 100;
     margin: 0 auto;
@@ -350,7 +348,7 @@ thead th {
 
 .embedmap iframe {
     flex-grow: 1;
-    height: 400px;
+    height: 300px;
 }
 
 footer {
@@ -401,7 +399,7 @@ footer div p {
 
     .searchbarhead button {
         margin: auto 0;
-        /* height: 2rem; */
+        height: 2rem;
     }
 
     .secnonebox {
@@ -428,7 +426,7 @@ footer div p {
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 70px 1fr 1fr;
     }
 
     .secnthreebox h1 {
@@ -457,5 +455,48 @@ footer div p {
 
     .print {
         grid-column: span 2;
+    }
+
+    .back-img-secn-box {
+        margin: 0 70px;
+    }
+
+    .secnfivebox {
+        margin: 0 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 70px 1fr 1fr;
+    }
+    
+    .secnfivebox h1 {
+        grid-column: 1 / span 2;
+    }
+
+    .bobrite {
+        grid-row: 3 / span 1;
+    }
+
+    .secnsixbox {
+        margin: 0 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 70px 1fr 200px;
+    }
+
+    .secnsixbox h1 {
+        grid-column: 1 / span 2;
+    }
+
+    .sndusmsg {
+        margin-top: 16px;
+    }
+
+    .tabletab {
+        grid-column: 1 / span 2;
+        grid-row: 3 / span 1;
+    }
+
+    footer div {
+        margin: 0 70px;
     }
 }
