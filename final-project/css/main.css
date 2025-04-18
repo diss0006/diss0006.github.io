@@ -4,6 +4,20 @@ body {
     font-variation-settings: "wdth" 100;
     margin: 0 auto;
     max-width: 1200px;
+    background-color: #ddb966;
+}
+
+.secnthree, .back-img-secn, .secnfive, .secnsix {
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 12px;
+}
+
+p {
+    margin: 12px 0;
 }
 
 h1 {
@@ -197,7 +211,7 @@ header {
 }
 
 .back-img-secn h3 {
-    margin-top: 7px;
+    margin-top: 0;
     padding-top: 1rem;
 }
 
@@ -233,7 +247,7 @@ header {
 }
 
 .secnfive h3 {
-    margin: 0 0;
+    margin: 10px 0 10px 0;
     padding: 10px 10px;
     padding-bottom: 0;
 }
@@ -426,7 +440,7 @@ footer div p {
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 70px 1fr 1fr;
+        grid-template-rows: 70px 1fr auto;
     }
 
     .secnthreebox h1 {
@@ -455,6 +469,15 @@ footer div p {
 
     .print {
         grid-column: span 2;
+    }
+    
+    .pcbutton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pcbutton button {
+        flex-grow: 1;
     }
 
     .back-img-secn-box {
