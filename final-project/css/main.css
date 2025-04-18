@@ -1,3 +1,4 @@
+/* Properties applied to the whole body, so that it affects every tag it it didn't get modified later */
 body {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -8,10 +9,12 @@ body {
     line-height: normal;
 }
 
+/* background color added to the sections with white background */
 .secnthree, .back-img-secn, .secnfive, .secnsix {
     background-color: white;
 }
 
+/* css properties added to get certain tags to default properties after css reset  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin: 12px;
@@ -21,6 +24,7 @@ p {
     margin: 12px 0;
 }
 
+/* css properties to add changes to default properties in these tags */
 h1 {
     font-size: 34px;
 }
@@ -34,7 +38,7 @@ h5 {
     margin: 0 10px;
 }
 
-
+/* css properties for header and its content */
 header {
     background-color: #222;
 }
@@ -72,7 +76,6 @@ header {
     background-color: #c78c06;
 }
 
-
 .headercontentbox a{
     text-decoration: none;
 }
@@ -106,6 +109,7 @@ header {
     border: 2px solid #c78c06;
 }
 
+/* css properties added to the first section (Welcome) sub tags of the webpage */
 .secnone {
     background-image: url(../images/main-banner.jpg);
     background-position: center;
@@ -146,6 +150,7 @@ header {
     border: 0;
 }
 
+/* css properties added to the second section and (About Us) sub tags of the webpage  */
 .secntwo {
     background-color: #ffe6ac;
     padding: 10px 10px;
@@ -163,6 +168,7 @@ header {
     font-size: 12px;
 }
 
+/* css properties added to the third section (Our Services) and sub tags of the webpage */
 .secnthree {
     padding: 10px 10px;
 }
@@ -199,6 +205,7 @@ header {
     background-color: #694b04;
 }
 
+/* css properties added to the fourth section (Our Vision) and sub tags of the webpage */
 .back-img-secn {
     background-image: url(../images/vision.jpg);
     background-position: center;
@@ -230,6 +237,7 @@ header {
     background-color: #694b04;
 }
 
+/* css properties added to the fifth section (Our Team) and sub tags of the webpage */
 .secnfive {
     padding: 10px 10px;
 }
@@ -268,6 +276,7 @@ header {
     background-color: #ffe6ac;
 }
 
+/* css properties added to the sixth section (Contact Us) and sub tags of the webpage */
 .secnsix h1 {
     margin-top: 0;
     padding-top: 12px;
@@ -368,6 +377,7 @@ thead th {
     height: 300px;
 }
 
+/* css properties added to the Footer and sub tags of the webpage */
 footer {
     background-color: #222;
     color: #c78c06;
@@ -383,11 +393,15 @@ footer div p {
     padding: 10px 0;
 }
 
+/* added media query to add css properties to tags when the webpage is in desktop view */
 @media screen and (min-width: 760px) {
+
+    /* css properties added to the whole body of the webpage when in desktop view */
     body {
         background-color: #ddb966;
     }
-    
+
+    /* css properties added to the header and its content of the webpage when in desktop view */
     .headercontentbox {
         display: flex;
         justify-content: space-evenly;
@@ -423,12 +437,14 @@ footer div p {
         height: 2rem;
     }
 
+    /* css properties added to the first section (Welcome) and its content of the webpage when in desktop view */
     .secnonebox {
         margin: 0 70px;
     }
-
+    /* css properties added to the second section (About Us) and its content of the webpage when in desktop view */
     .secntwobox {
         margin: 0 70px;
+        /* adds grid properties for section two content */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
@@ -442,8 +458,10 @@ footer div p {
         padding: 10px;
     }
 
+    /* css properties added to the third section (Our Services) and its content of the webpage when in desktop view */
     .secnthreebox {
         margin: 0 70px;
+        /* adds grid properties for section three content */
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(6, 1fr);
@@ -487,12 +505,15 @@ footer div p {
         flex-grow: 1;
     }
 
+    /* css properties added to the fourth section (Our Vision) of the webpage when in desktop view */
     .back-img-secn-box {
         margin: 0 70px;
     }
 
+    /* css properties added to the fifth section (Our Team) and its content of the webpage when in desktop view */
     .secnfivebox {
         margin: 0 70px;
+        /* adds grid properties for section five content */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 70px 1fr 1fr;
@@ -506,8 +527,10 @@ footer div p {
         grid-row: 3 / span 1;
     }
 
+    /* css properties added to the sixth section (Contact Us) and its content of the webpage when in desktop view */
     .secnsixbox {
         margin: 0 70px;
+        /* adds grid properties for section six content */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 70px 1fr 200px;
@@ -526,6 +549,7 @@ footer div p {
         grid-row: 3 / span 1;
     }
 
+    /* css properties added to the footer of the webpage when in desktop view */
     footer div {
         margin: 0 70px;
     }
