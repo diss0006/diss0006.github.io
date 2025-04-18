@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     background-color: #ddb966;
+    line-height: normal;
 }
 
 .secnthree, .back-img-secn, .secnfive, .secnsix {
